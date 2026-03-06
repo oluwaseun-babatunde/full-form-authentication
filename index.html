@@ -7,44 +7,44 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
-<body class="flex justify-center items-center bg-blue-500 min-h-screen">
- 
-    <form class=" shadow-lg m-auto p-10 rounded-2xl backdrop-blur-lg backdrop-blur-md">
+<body class="flex justify-center items-center bg-blue-500 min-h-screen bg-gradient-to-r from-blue-500 to-red-500">
+     
+    <form class=" backdrop-blur-2xl  shadow-2xl m-auto p-10 rounded-2xl my-12">
         <h4 class="text-center text-white font-bold mb-4 text-[20px]">Sign Up</h4>
-        
-        <div class="flex  ">
-        <label for="">First Name</label>
+        <div class=" flex flex-col space-y-8">
+        <div class=" flex flex-col">
+        <label for=" rounded-2xl mb-2">First Name</label>
          <input type="text" placeholder="Enter first name" class="p-2 rounded-2xl">
         </div>
-
-        <div class="">
-                <label for="">Last Name</label>
-         <input type="text" placeholder="Enter Last name">
+          
+        <div class=" flex flex-col">
+                <label for="rounded-2xl">Last Name</label>
+         <input type="text" placeholder="Enter Last name" class="p-2 rounded-2xl">
         </div>
 
-        <div class="">
-        <label for="">Email</label>
-         <input type="text" placeholder="Enter Email">
+        <div class="flex flex-col">
+        <label for="" class="rounded-2xl">Email</label>
+         <input type="text" placeholder="Enter Email" class=" p-2 rounded-2xl">
         </div>
 
-        <div class="">
-        <label for="">Phone Number</label>
-         <input type="text" placeholder="Enter Phone Number">
+        <div class="flex flex-col">
+        <label for="rounded-2xl">Phone Number</label>
+         <input type="text" placeholder="Enter Phone Number" class=" p-2 rounded-2xl">
         </div>
 
-        <div class="">
-            <label for="">Username</label>
-         <input type="text" placeholder="Enter Username">
+        <div class="flex flex-col">
+            <label for="rounded-2xl">Username</label>
+         <input type="text" placeholder="Enter Username" class=" p-2 rounded-2xl">
         </div>
 
-        <div class="">
-            <label for="">Password</label>
-            <input type="text" placeholder="password">
+        <div class="flex flex-col">
+            <label for="rounded-2xl">Password</label>
+            <input type="text" placeholder="password" class=" p-2 rounded-2xl">
         </div>
 
-        <div>
-            <label for="">Countries</label>
-                <select name="" id="">
+        
+            <label for="rounded-2xl">Countries</label>
+                <select name="flex flex-col" id=" p-2 rounded-2xl">
                     <optgroup label="Africa">
                         <option value="">Togo</option>
                         <option value="">Congo</option>
@@ -71,8 +71,8 @@
         </div>
 
         <div>
-            <label for="">Language preference</label>
-        <select name="" id="Language preference">
+            <label for="rounded-2xl">Language preference</label>
+        <select name="p-2 rounded-2xl" id="Language preference">
                     <optgroup label="">
                         <option value="">English</option>
                         <option value="">Spanish</option>
@@ -81,9 +81,12 @@
                         </optgroup>
                 </select>
         </div>
-
+          
         <input type="file" multiple>
+        
 
+        </div>
     </form>
+    </div>
 </body>
 </html>
